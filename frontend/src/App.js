@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <header>Travel Blog</header>
+    <header>Workout Tracker App</header>
   );
 }
 
