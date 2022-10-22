@@ -1,9 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router} from 'react-router-dom'
 function App() {
   return (
-    <header>Workout Tracker App</header>
+    <Router>
+    <Navbar/>
+    </Router>
+    
   );
 }
 
