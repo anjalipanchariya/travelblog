@@ -1,12 +1,12 @@
 
-import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import {BrowserRouter as Router} from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import CollapsibleExample from './components/Navbar/Navbar';
+import {BrowserRouter} from 'react-router-dom'
 function App() {
   return (
-    <Router>
-    <Navbar/>
-    </Router>
+   <>
+   <CollapsibleExample/>
+   </>
     
   );
 }
