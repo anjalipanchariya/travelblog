@@ -17,8 +17,8 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto" style={{textAlign: "centre"}}>
-            <Nav.Link href="#features" className="nav-menu">Features</Nav.Link>
-            <Nav.Link href="#pricing" className='nav-menu'>Pricing</Nav.Link>
+            <Nav.Link href="#features" className="nav-menu">Dashboard</Nav.Link>
+            <Nav.Link href="#pricing" className='nav-menu'>Workout</Nav.Link>
             
           </Nav>
           <Nav>

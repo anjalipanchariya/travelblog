@@ -1,0 +1,53 @@
+.bgimage {
+    max-height: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    opacity: 1px;
+    max-width: 100%;
+    z-index: -1;
+}
+
+.home{
+    position: relative;
+    
+}
+
+.bgtext{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.top{
+    top: 10%;
+}
+
+
+.home-box{
+    position: absolute;
+  width: 60%;
+  height: 40%;
+  padding: 50px;
+  border: 2px solid white; 
+  display: flex;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}
+
+
